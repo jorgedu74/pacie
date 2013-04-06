@@ -1,0 +1,10 @@
+@charset "utf-8";
+/* CSS Document */
+
+body {
+	background-color:#666;
+	background-image:url(img/fondo2.png);
+	font-family: sans-serif;
+	/*max-width:1024px; /* CODIGO PARA FIJAR EL ANCHO DE LA PÁGINA WEB */
+	margin:0px auto; /* CÓDIGO PARA PRACTICAMENTE CENTRAR EL CONTENIDO EN LA VENTANA */
+}

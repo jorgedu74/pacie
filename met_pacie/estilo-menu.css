@@ -1,0 +1,62 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+
+#menu-wrapper ul{padding:0px;
+	list-style:none;
+	font-family:"Comic Sans MS", cursive;
+	font-size:12px;
+	width:auto;
+	text-align:center;
+	vertical-align:middle;
+}
+
+#hmenu > li {
+	display:inline-block;
+}
+
+#hmenu li > a {
+	display:block;
+	padding:7px 5px;
+	width:120px;	
+}
+
+li ul {
+	position:absolute;
+	display:none;
+}
+
+.submenu a{
+	display:block;
+	padding:10px 5 px;
+	width:130px;
+}
+
+li:hover ul {
+	display:block;
+}
+
+#menu-wrapper, li ul {
+	background:#333;
+}
+
+#hmenu {
+	width:412px;
+	margin:0 auto;
+}
+
+#hmenu a{
+	color:#fff;
+	text-decoration:none;
+	font-weight:bold;
+}
+
+#hmenu li:hover{
+	background:#a3cd39;
+	text-shadow:0px 0px 2px #000;
+}
+
+footer {
+	text-align:center;	
+}

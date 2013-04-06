@@ -1,0 +1,100 @@
+﻿@charset "utf-8";
+/* CSS Document */
+body {
+	background-color:#666;
+	background-image:url(img/fondo.png);
+	max-width:900px; /* CODIGO PARA FIJAR EL ANCHO DE LA PÁGINA WEB */
+	margin:0px auto; /* CÓDIGO PARA PRACTICAMENTE CENTRAR EL CONTENIDO EN LA VENTANA */
+}
+
+#menu_hori {
+	width:auto;
+	height:30px;	
+	display:inline;
+	font-family:"Comic Sans MS", cursive;
+	
+}
+
+
+
+#menu_hori  a:link, nav a:visited{
+	color:#FC0;
+	background-color:RGB(32,69,197);
+	display: inline;
+	/*border-bottom: 3px solid #fff;*/
+	padding: 2px;
+	text-decoration: none;
+	font-weight: bold;
+	margin: 8px;
+	border-radius: 5px;
+	box-shadow:5px 5px 5px #000000;
+}
+
+#menu_hori  a:hover {
+	color: white;
+	background-color:#666;
+	text-shadow:5px 5px 5px #000000;
+	box-shadow:0px 0px 0px #000000;
+}
+
+#menu_verti {
+	width:auto;
+	display:block;
+	font-family:"Comic Sans MS", cursive;
+}
+
+#menu_verti a:link, nav a:visited{
+	color:#FC0;
+	/*background-color:RGBA(255,255,255,0.80);*/
+	display: block;
+	border-bottom: 2px solid #fff;
+	padding: 5px;
+	text-decoration: none;
+	font-weight: bold;
+	margin: 5px;
+}
+
+#menu_verti a:hover {
+	color: white;
+	background-color:#666;
+	text-shadow:5px 5px 5px #000000;
+}
+
+#texto_info{
+	border-radius:15px;
+	background:rgba(255,255,255,0.25);
+	padding:20px;
+	box-shadow:10px 10px 5px #000000;	
+}
+
+
+
+#tp{
+	float:right;
+
+	height:25px;
+	width:200px;
+	
+	border-radius:0px 15px 0px 15px;
+	padding:10px;
+	background:RGBA(255,252,0,0.80);
+	
+	font-family:Arial, Helvetica, sans-serif;
+	text-shadow:5px 5px 5px #000000;
+	text-align:center;
+	font-size:20px;
+	
+	-webkit-transform: rotate(322deg) scale(1) skew(1deg) translate(80px);
+	-moz-transform: rotate(322deg) scale(1) skew(1deg) translate(80px);
+	-o-transform: rotate(322deg) scale(1) skew(1deg) translate(80px);
+}
+
+h5{
+	border-radius:10px;
+	background:rgba(255,255,255,0.25);
+	padding:20px;
+	text-shadow:5px 5px 5px #000000;
+	box-shadow:10px 10px 5px #000000;
+	text-align:center;
+	color:rgb(238,235,203);
+}
